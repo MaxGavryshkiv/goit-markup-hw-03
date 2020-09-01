@@ -182,9 +182,23 @@ img {
   text-transform: uppercase;
 }
 
+/* .hero-content {
+  width: 100%;
+} */
+
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  display: block;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* h3 {
@@ -268,6 +282,7 @@ img {
 
 .team .section-title {
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .team-list {
